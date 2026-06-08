@@ -22,7 +22,14 @@ This repository contains a full-stack Python application that processes chest X-
 * **`utils/`** – Helper configuration scripts folder.
 
 ---
+### Data Placement & Acquisition
+1. **Download the exact dataset assets:**
+   * Direct Link: [Kaggle NIH Chest X-ray Sample Dataset](https://www.kaggle.com/datasets/nih-chest-xrays/sample)
+2. **Setup Directories:**
+   * Extract the image archive and place the files inside your local `data/images/` directory.
+   * Place the accompanying tracking sheet directly into your project as `data/sample_labels.csv`.
 
+---
 ## ⚙️ Local Installation & Environment Setup
 
 To recreate and run this environment locally, execute the following commands in sequence within your terminal:
